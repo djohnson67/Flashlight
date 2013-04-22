@@ -12,6 +12,7 @@
 @property (weak, nonatomic) IBOutlet UISwitch *toggleSwitch;
 @property (weak, nonatomic) IBOutlet UISlider *brightnessSlider;
 @property (weak, nonatomic) IBOutlet UIView *lightSource;
+@property (nonatomic) BOOL isLit;
 
 - (IBAction)setLightSourceAlphaValue:(id)sender;
 
