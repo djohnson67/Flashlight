@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UIView *lightSource;
 @property (nonatomic) BOOL isLit;
 @property (nonatomic) BOOL wasLit; //from mb
+@property (strong, nonatomic) NSString *aString;
 
 - (IBAction)setLightSourceAlphaValue:(id)sender;
 
