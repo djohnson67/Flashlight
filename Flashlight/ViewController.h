@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UISlider *brightnessSlider;
 @property (weak, nonatomic) IBOutlet UIView *lightSource;
 @property (nonatomic) BOOL isLit;
+@property (nonatomic) BOOL wasLit; //from mb
 
 - (IBAction)setLightSourceAlphaValue:(id)sender;
 
